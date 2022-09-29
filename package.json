@@ -6,7 +6,8 @@
     "scripts": {
         "test": "jest",
         "build": "tsc",
-        "start": "nodemon src/main.ts"
+        "start": "tsc && node dist/main.js",
+        "start:dev": "nodemon src/main.ts"
     },
     "keywords": [],
     "author": "",
